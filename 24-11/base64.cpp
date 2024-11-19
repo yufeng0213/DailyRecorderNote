@@ -114,8 +114,14 @@ std::string base64_encode(std::string const& bytes_to_encode) {
 }
 
 int main() {
-    std::string encoded_str = "SGVsbG8gV29ybGQh"; // "Hello World!" in Base64
-    std::string decoded_str = base64_decode(encoded_str);
-    std::cout << "Decoded string: " << decoded_str << std::endl;
+//    std::string encoded_str = "SGVsbG8gV29ybGQh"; // "Hello World!" in Base64
+//    std::string decoded_str = base64_decode(encoded_str);
+//    std::cout << "Decoded string: " << decoded_str << std::endl;
+
+    char c = '-';
+    bool valid = isalnum(c);
+    std::cout<<"valid: "<<valid<<"\n";
+
+
     return 0;
 }
