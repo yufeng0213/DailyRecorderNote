@@ -1,3 +1,3 @@
 
 
-add_executable(2411 alpha.cpp)
+add_executable(2411 weak_from_this.cpp)
